@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+<meta name="description" content="{{ site.description }}">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="site-title" href="{{ '/' | relative_url }}">☁️ {{ site.title }}</a>
+    <p class="site-tagline">天空の図書館 — 雲の上に浮かぶ、リンクの蔵書棚</p>
+  </div>
+</header>
+<main class="wrap">
+{{ content }}
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p><a href="https://akamaryuu.github.io/WeFeeArtsHub/">WeFeeArts ポータル</a> ／ <a href="https://akamaryuu.github.io/WeFeeArtsBlogs/">赤魔龍の工房</a></p>
+  </div>
+</footer>
+<script src="{{ '/assets/js/filter.js' | relative_url }}"></script>
+</body>
+</html>

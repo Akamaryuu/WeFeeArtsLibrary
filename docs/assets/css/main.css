@@ -1,0 +1,45 @@
+:root{
+  --bg:#eaf3fb; --paper:#ffffff; --ink:#26313d;
+  --sub:#6b7a89; --accent:#2f6fb2; --accent-soft:#dcecfb; --line:#c9dcee;
+  --gold:#c9a227;
+}
+*{box-sizing:border-box}
+body{margin:0;color:var(--ink);
+  background:linear-gradient(180deg,#dcefff 0%,#eaf3fb 240px,#eaf3fb 100%);
+  font-family:"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;line-height:1.7}
+.wrap{max-width:880px;margin:0 auto;padding:0 16px}
+a{color:var(--accent)}
+.site-header{padding:34px 0 22px;text-align:center;
+  background:
+    radial-gradient(ellipse 220px 46px at 18% 68%,rgba(255,255,255,.95),rgba(255,255,255,0) 70%),
+    radial-gradient(ellipse 300px 56px at 82% 30%,rgba(255,255,255,.9),rgba(255,255,255,0) 70%),
+    linear-gradient(180deg,#6fa8dc 0%,#a8cdf0 70%,#dcefff 100%);
+  border-bottom:3px solid var(--gold)}
+.site-title{color:#173a5e;text-decoration:none;font-size:2rem;font-weight:700;letter-spacing:.02em;
+  font-family:"Hiragino Mincho ProN","Yu Mincho",serif;text-shadow:0 1px 0 rgba(255,255,255,.7)}
+.site-tagline{margin:4px 0 0;color:#33536f;font-size:.95rem}
+main{padding:24px 0 40px}
+h1{font-family:"Hiragino Mincho ProN","Yu Mincho",serif;font-size:1.5rem;color:#173a5e}
+.controls{margin:18px 0 6px}
+#q{width:100%;padding:10px 14px;font-size:1rem;border:1px solid var(--line);
+  border-radius:999px;background:var(--paper);box-shadow:0 2px 6px rgba(70,110,150,.08)}
+.chips{margin-top:10px;display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1px solid var(--accent);background:rgba(255,255,255,.75);color:var(--accent);
+  border-radius:999px;padding:4px 14px;font-size:.9rem;cursor:pointer}
+.chip.is-active{background:var(--accent);color:#fff}
+.count{color:var(--sub);font-size:.9rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.card{background:var(--paper);border:1px solid var(--line);border-top:5px solid var(--accent);
+  border-radius:10px;padding:14px 16px;box-shadow:0 6px 14px rgba(70,110,150,.10)}
+.card-head{display:flex;justify-content:space-between;align-items:center}
+.badge{background:var(--accent-soft);color:var(--accent);border-radius:4px;
+  padding:1px 8px;font-size:.78rem;font-weight:700}
+.card-head time{color:var(--sub);font-size:.8rem}
+.card-title{font-size:1.05rem;margin:8px 0 4px}
+.card-title a{text-decoration:none}
+.card-title a:hover{text-decoration:underline}
+.card-note{margin:0;color:#45525f;font-size:.92rem}
+.card-tags{margin:8px 0 0}
+.tag{color:var(--sub);font-size:.8rem;margin-right:4px}
+.empty{color:var(--sub);text-align:center;padding:24px 0}
+.site-footer{border-top:1px solid var(--line);padding:16px 0 28px;color:var(--sub);font-size:.9rem;text-align:center}
