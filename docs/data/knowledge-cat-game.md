@@ -13,6 +13,6 @@
 
 ### Steamセール: 過去最安に並んだら買い時
 
-- 内容: セールの種類ごとの値引きの深さの傾向と、「SteamDBの過去最安と同額なら買い」という自分の判断ルール。
+- 内容: セールの種別と毎年の大型セールの傾向、SteamDBでの過去最安の確認方法と、「過去最安と同額なら買い」という自分の判断ルール。
 - カテゴリ: ゲーム / タグ: Steam, セール, 買い方 / 日付: 2026-11-17
 - URL: https://akamaryuu.github.io/WeFeeArtsLibrary/knowledge/steam-sale-floor-rule/
