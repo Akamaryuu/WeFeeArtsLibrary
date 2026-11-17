@@ -58,6 +58,8 @@
     .then(function(r){ return r.json(); })
     .then(function(data){
       items=data.slice().sort(function(a,b){ return a.date<b.date?1:(a.date>b.date?-1:0); });
+      var want=new URLSearchParams(location.search).get('cat');
+      if(want && items.some(function(l){ return l.category===want; })) cat=want;
       loading.hidden=true;
       renderChips();
       apply();

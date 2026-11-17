@@ -1,4 +1,4 @@
-# WeFeeArtsLibrary ナレッジ書き出し
+# WeFeeArtsLibrary ナレッジ案内
 
 ## この文書の使い方（AI向けガイド）
 
@@ -15,64 +15,35 @@
 
 ### 知識の使い方
 
-- 記事や回答を作るときは、まずこの知識の中に関連する項目がないか探し、あればそれを根拠にすること
+- この文書は「案内」です。カテゴリごとに分かれていて、各カテゴリのURLの中に、そのカテゴリの記事の「内容と記事URL」の一覧が入れ子で入っています
+- 記事や回答を作るときは、まず関連するカテゴリのURLを開き、その中の目次から関連する記事を探し、記事URLの本文を根拠にすること
 - 知識に書かれた数値・手順・条件は、本人が実機や実績で確認したものです。一般論や推測で上書きしないこと
 - 知識にないことは、事実のように書かないこと。必要なら「知識にはない」と分かる形にすること
 - 各記事の見出しにある「カテゴリ」「タグ」「日付」が手がかりです。内容が競合したら、日付の新しい方を優先すること
 - 価格を書くときは円（¥）で書き、割引率は参考程度に留めること（本人の方針）
 
----
 
-# Lantern StickはFU環境ではArmoryで作る
+### 収録ナレッジの案内
 
-カテゴリ: ゲーム / タグ: Starbound, Frackin' Universe, クラフト / 日付: 2026-11-17
+現在、この知識データベースには2つのまとまりがあります。
 
-## 結論
-
-- バニラ: **Foraging Table** でクラフト
-- FU（Frackin' Universe）環境: **Armorworks → Assembly Line → Armory** の系統でクラフトする。背中アイテムがEPP（環境防護パック）扱いになっているため
-
-「ResearchしたのにForaging Tableにレシピがない」と探し回った末の結論。バニラWikiの情報だけでは辿り着けない。
-
-## レシピ
-
-- Wooden Log ×10
-- Iron Bar ×1
-- Explorer's Lantern ×1
-
-## 解放条件（FU研究）
-
-- Agricultureツリーの **「Survival」**（Research 200）で解放される
-- 研究は **キャラクターごとに独立**。旧キャラで解放済みでも、新キャラでは未解放のまま
-- 次の「Advanced Survival」（Research 750）の研究素材として、Lantern Stick自体が1つ必要になる
-
-## メモ
-
-- レシピが見当たらないときは、素材不足フィルターの前に「研究解放」と「作業台の系統」を疑う
-- 2026-11-17、解放済みの別キャラでArmoryにレシピがあることを実機確認
+- **ゲーム用ナレッジ**（カテゴリ: ゲーム）
+  - 本人のゲームプレイ環境での検証情報や、ゲームの買い方などの判断ルールの集まりです
+  - 入口: https://akamaryuu.github.io/WeFeeArtsLibrary/data/knowledge-export-game.md
+- **教育・仕事用ナレッジ**（カテゴリ: 講師・教育、技術・開発）
+  - 講師・教育と技術に関する知識の集まりです。教育・仕事系の記事を書くときの根拠として使います
+  - 経歴の裏づけには経歴サマリー（https://akamaryuu.github.io/WeFeeArtsLaboratory/data/career-export.md）を併用してください
+  - 入口: https://akamaryuu.github.io/WeFeeArtsLibrary/data/knowledge-export-work.md
 
 ---
 
-# Steamセール: 過去最安に並んだら買い時
+## カテゴリ案内
 
-カテゴリ: ゲーム / タグ: Steam, セール, 買い方 / 日付: 2026-11-17
-
-## ルール
-
-**SteamDBの過去最安と同額まで下がっていたら、セールの種類を問わず買い時。** それより浅い値引きは基本見送る。
-
-判断は割引率ではなく **価格（円）** で行う。割引率は参考程度。
-
-## セール種別ごとの傾向
-
-| セール | 傾向 |
-|---|---|
-| 冬セール（大型） | 参加タイトルの幅は最大。ただし深さは過去の季節セール並みが中心で、最安の更新は少ない |
-| 開発元・パブリッシャーセール | そのメーカーのカタログに限れば、冬以上に深いことがある |
-| デイリーディール | 季節セールの最安に合わせてくることが多い |
-| ウィークロング | 一番浅い |
-
-## 運用
-
-- 冬セールは「買い逃しの回収」の場。新規の最安狙いは、通年のセールを拾っていく
-- 過去最安と同額のセールは繰り返し来ることが多い。逃しても痛くないものは無理に買わない
+- ゲーム: https://akamaryuu.github.io/WeFeeArtsLibrary/data/knowledge-cat-game.md
+- 技術・開発: https://akamaryuu.github.io/WeFeeArtsLibrary/data/knowledge-cat-tech.md
+- 講師・教育: https://akamaryuu.github.io/WeFeeArtsLibrary/data/knowledge-cat-education.md
+- お金・手続き: https://akamaryuu.github.io/WeFeeArtsLibrary/data/knowledge-cat-money.md
+- 生活・家族: https://akamaryuu.github.io/WeFeeArtsLibrary/data/knowledge-cat-life.md
+- 音楽: https://akamaryuu.github.io/WeFeeArtsLibrary/data/knowledge-cat-music.md
+- 自分のサイト: https://akamaryuu.github.io/WeFeeArtsLibrary/data/knowledge-cat-mysites.md
+- あとで読む: https://akamaryuu.github.io/WeFeeArtsLibrary/data/knowledge-cat-later.md
