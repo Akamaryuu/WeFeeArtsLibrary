@@ -1,0 +1,26 @@
+[
+ {
+  "slug": "starbound-lantern-stick-fu",
+  "title": "Lantern StickはFU環境ではArmoryで作る",
+  "category": "ゲーム",
+  "tags": [
+   "Starbound",
+   "Frackin' Universe",
+   "クラフト"
+  ],
+  "summary": "バニラではForaging Tableのレシピだが、FUでは背中アイテム=EPP扱いでArmorworks系（Armory）に移っている。解放はFU研究Agriculture「Survival」。",
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "steam-sale-floor-rule",
+  "title": "Steamセール: 過去最安に並んだら買い時",
+  "category": "ゲーム",
+  "tags": [
+   "Steam",
+   "セール",
+   "買い方"
+  ],
+  "summary": "セールの種類ごとの値引きの深さの傾向と、「SteamDBの過去最安と同額なら買い」という自分の判断ルール。",
+  "date": "2026-11-17"
+ }
+]

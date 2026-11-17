@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<article class="knowledge-article">
+  <p class="ka-meta"><span class="badge">{{ page.category }}</span> <time>{{ page.date | date: "%Y-%m-%d" }}</time></p>
+  <h1>{{ page.title }}</h1>
+  {{ content }}
+  <p class="ka-tags">{% for t in page.tags %}<span class="tag">#{{ t }}</span> {% endfor %}</p>
+  <p class="back-link"><a href="{{ '/knowledge/' | relative_url }}">← ナレッジ一覧へ</a></p>
+</article>

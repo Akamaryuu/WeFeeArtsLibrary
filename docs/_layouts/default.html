@@ -19,7 +19,11 @@ gtag('config', 'G-0GS730LWDG');
 <header class="site-header">
   <div class="wrap">
     <a class="site-title" href="{{ '/' | relative_url }}">☁️ {{ site.title }}</a>
-    <p class="site-tagline">天空の図書館 — 雲の上に浮かぶ、リンクの蔵書棚</p>
+    <p class="site-tagline">天空の図書館 — 雲の上に浮かぶ、リンクと知識の蔵書棚</p>
+    <nav class="site-nav">
+      <a href="{{ '/' | relative_url }}">蔵書カード</a>
+      <a href="{{ '/knowledge/' | relative_url }}">ナレッジ</a>
+    </nav>
   </div>
 </header>
 <main class="wrap">
@@ -30,6 +34,6 @@ gtag('config', 'G-0GS730LWDG');
     <p><a href="https://akamaryuu.github.io/WeFeeArtsHub/">WeFeeArts ポータル</a> ／ <a href="https://akamaryuu.github.io/WeFeeArtsBlogs/">赤魔龍の工房</a></p>
   </div>
 </footer>
-<script src="{{ '/assets/js/filter.js' | relative_url }}"></script>
+{% if page.script %}<script src="{{ '/assets/js/' | append: page.script | relative_url }}"></script>{% endif %}
 </body>
 </html>

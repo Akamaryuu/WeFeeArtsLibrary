@@ -42,4 +42,19 @@ h1{font-family:"Hiragino Mincho ProN","Yu Mincho",serif;font-size:1.5rem;color:#
 .card-tags{margin:8px 0 0}
 .tag{color:var(--sub);font-size:.8rem;margin-right:4px}
 .empty{color:var(--sub);text-align:center;padding:24px 0}
+.site-nav{margin-top:12px;display:flex;gap:10px;justify-content:center}
+.site-nav a{background:rgba(255,255,255,.85);border:1px solid var(--accent);color:var(--accent);
+  border-radius:999px;padding:3px 18px;text-decoration:none;font-size:.9rem;font-weight:700}
+.site-nav a:hover{background:var(--accent);color:#fff}
+.knowledge-article{background:var(--paper);border:1px solid var(--line);border-radius:10px;
+  padding:20px 24px;box-shadow:0 6px 14px rgba(70,110,150,.10)}
+.knowledge-article h1{margin:6px 0 10px}
+.knowledge-article h2{font-size:1.15rem;color:#173a5e;border-bottom:2px solid var(--accent-soft);
+  padding-bottom:4px;margin:26px 0 8px}
+.knowledge-article code{background:var(--accent-soft);padding:1px 5px;border-radius:4px;font-size:.9em}
+.knowledge-article table{border-collapse:collapse;margin:10px 0}
+.knowledge-article th,.knowledge-article td{border:1px solid var(--line);padding:4px 10px}
+.ka-meta{color:var(--sub);font-size:.85rem;margin:0}
+.ka-tags{margin-top:20px}
+.back-link{margin-top:10px}
 .site-footer{border-top:1px solid var(--line);padding:16px 0 28px;color:var(--sub);font-size:.9rem;text-align:center}

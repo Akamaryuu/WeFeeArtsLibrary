@@ -1,6 +1,7 @@
 ---
 layout: default
 title: ""
+script: filter.js
 ---
 
 # 蔵書カード
