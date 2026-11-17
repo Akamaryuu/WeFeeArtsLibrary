@@ -14,5 +14,4 @@ TypeScript製のオープンソース2Dゲームエンジン「Excalibur.js」�
 
 ## 出典
 
-ゲームメーカーズ（2026-11-16）
-https://gamemakers.jp/article/2026_11_16_150774/
+[ゲームメーカーズ「TypeScript製のオープンソース2Dゲームエンジン『Excalibur.js』正式リリース。MCPによるAIエージェント連携にも対応」](https://gamemakers.jp/article/2026_11_16_150774/)（2026-11-16）
