@@ -5,4 +5,8 @@
 
 ---
 
-（まだ記事がありません）
+### Excalibur.js 1.0正式リリース（TypeScript製2Dゲームエンジン）
+
+- 内容: TypeScript製のOSS 2Dゲームエンジン「Excalibur.js」が1.0正式リリース。BSD 2-Clauseで商用利用可。CLIがMCP経由のAIエージェント連携に対応。
+- カテゴリ: 技術・開発 / タグ: ゲームエンジン, TypeScript, Excalibur.js, MCP, ゲーム開発 / 日付: 2026-11-18
+- URL: https://akamaryuu.github.io/WeFeeArtsLibrary/knowledge/excalibur-js-1-0/

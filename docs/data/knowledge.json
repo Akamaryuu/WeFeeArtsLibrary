@@ -1,5 +1,19 @@
 [
  {
+  "slug": "excalibur-js-1-0",
+  "title": "Excalibur.js 1.0正式リリース（TypeScript製2Dゲームエンジン）",
+  "category": "技術・開発",
+  "tags": [
+   "ゲームエンジン",
+   "TypeScript",
+   "Excalibur.js",
+   "MCP",
+   "ゲーム開発"
+  ],
+  "summary": "TypeScript製のOSS 2Dゲームエンジン「Excalibur.js」が1.0正式リリース。BSD 2-Clauseで商用利用可。CLIがMCP経由のAIエージェント連携に対応。",
+  "date": "2026-11-18"
+ },
+ {
   "slug": "starbound-lantern-stick-fu",
   "title": "Lantern StickはFU環境ではArmoryで作る",
   "category": "ゲーム",
