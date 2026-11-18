@@ -1,4 +1,5 @@
 :root{
+  color-scheme:light dark;
   --bg:#eaf3fb; --paper:#ffffff; --ink:#26313d;
   --sub:#6b7a89; --accent:#2f6fb2; --accent-soft:#dcecfb; --line:#c9dcee;
   --gold:#c9a227;
@@ -58,3 +59,82 @@ h1{font-family:"Hiragino Mincho ProN","Yu Mincho",serif;font-size:1.5rem;color:#
 .ka-tags{margin-top:20px}
 .back-link{margin-top:10px}
 .site-footer{border-top:1px solid var(--line);padding:16px 0 28px;color:var(--sub);font-size:.9rem;text-align:center}
+
+/* ダークテーマ（端末設定に自動追従） — 夜空の図書館 */
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#0d1b2a; --paper:#16283a; --ink:#dce8f2;
+    --sub:#8fa6ba; --accent:#6db3f2; --accent-soft:#1d3a52; --line:#2c4a63;
+    --gold:#c9a227;
+  }
+  body{background:linear-gradient(180deg,#081426 0%,#0d1b2a 240px,#0d1b2a 100%)}
+  .site-header{
+    background:
+      radial-gradient(ellipse 220px 46px at 18% 68%,rgba(255,255,255,.10),rgba(255,255,255,0) 70%),
+      radial-gradient(ellipse 300px 56px at 82% 30%,rgba(255,255,255,.08),rgba(255,255,255,0) 70%),
+      linear-gradient(180deg,#0b2748 0%,#144a75 70%,#0d1b2a 100%);
+  }
+  .site-title{color:#dceeff;text-shadow:0 1px 0 rgba(0,0,0,.5)}
+  .site-tagline{color:#a9c6de}
+  h1{color:#dceeff}
+  #q{box-shadow:0 2px 6px rgba(0,0,0,.35);color:var(--ink)}
+  .chip{background:rgba(22,40,58,.75)}
+  .chip.is-active{background:var(--accent);color:#0b1c2c}
+  .card{box-shadow:0 6px 14px rgba(0,0,0,.35)}
+  .card-note{color:#b9c9d6}
+  .site-nav a{background:rgba(22,40,58,.85)}
+  .site-nav a:hover{background:var(--accent);color:#0b1c2c}
+  .knowledge-article{box-shadow:0 6px 14px rgba(0,0,0,.35)}
+  .knowledge-article h2{color:#dceeff}
+}
+
+/* テーマ切り替えボタン＋手動指定（端末設定より優先） */
+.theme-toggle{position:fixed;right:14px;bottom:14px;z-index:50;width:44px;height:44px;border-radius:999px;
+  border:1px solid var(--line);background:var(--paper);color:var(--ink);font-size:1.15rem;cursor:pointer;
+  box-shadow:0 4px 12px rgba(0,0,0,.22)}
+:root[data-theme="dark"]{
+  --bg:#0d1b2a; --paper:#16283a; --ink:#dce8f2;
+  --sub:#8fa6ba; --accent:#6db3f2; --accent-soft:#1d3a52; --line:#2c4a63; --gold:#c9a227;
+}
+[data-theme="dark"] body{background:linear-gradient(180deg,#081426 0%,#0d1b2a 240px,#0d1b2a 100%)}
+[data-theme="dark"] .site-header{
+  background:
+    radial-gradient(ellipse 220px 46px at 18% 68%,rgba(255,255,255,.10),rgba(255,255,255,0) 70%),
+    radial-gradient(ellipse 300px 56px at 82% 30%,rgba(255,255,255,.08),rgba(255,255,255,0) 70%),
+    linear-gradient(180deg,#0b2748 0%,#144a75 70%,#0d1b2a 100%);
+}
+[data-theme="dark"] .site-title{color:#dceeff;text-shadow:0 1px 0 rgba(0,0,0,.5)}
+[data-theme="dark"] .site-tagline{color:#a9c6de}
+[data-theme="dark"] h1{color:#dceeff}
+[data-theme="dark"] #q{box-shadow:0 2px 6px rgba(0,0,0,.35);color:var(--ink)}
+[data-theme="dark"] .chip{background:rgba(22,40,58,.75)}
+[data-theme="dark"] .chip.is-active{background:var(--accent);color:#0b1c2c}
+[data-theme="dark"] .card{box-shadow:0 6px 14px rgba(0,0,0,.35)}
+[data-theme="dark"] .card-note{color:#b9c9d6}
+[data-theme="dark"] .site-nav a{background:rgba(22,40,58,.85)}
+[data-theme="dark"] .site-nav a:hover{background:var(--accent);color:#0b1c2c}
+[data-theme="dark"] .knowledge-article{box-shadow:0 6px 14px rgba(0,0,0,.35)}
+[data-theme="dark"] .knowledge-article h2{color:#dceeff}
+:root[data-theme="light"]{
+  --bg:#eaf3fb; --paper:#ffffff; --ink:#26313d;
+  --sub:#6b7a89; --accent:#2f6fb2; --accent-soft:#dcecfb; --line:#c9dcee; --gold:#c9a227;
+}
+[data-theme="light"] body{background:linear-gradient(180deg,#dcefff 0%,#eaf3fb 240px,#eaf3fb 100%)}
+[data-theme="light"] .site-header{
+  background:
+    radial-gradient(ellipse 220px 46px at 18% 68%,rgba(255,255,255,.95),rgba(255,255,255,0) 70%),
+    radial-gradient(ellipse 300px 56px at 82% 30%,rgba(255,255,255,.9),rgba(255,255,255,0) 70%),
+    linear-gradient(180deg,#6fa8dc 0%,#a8cdf0 70%,#dcefff 100%);
+}
+[data-theme="light"] .site-title{color:#173a5e;text-shadow:0 1px 0 rgba(255,255,255,.7)}
+[data-theme="light"] .site-tagline{color:#33536f}
+[data-theme="light"] h1{color:#173a5e}
+[data-theme="light"] #q{box-shadow:0 2px 6px rgba(70,110,150,.08);color:var(--ink)}
+[data-theme="light"] .chip{background:rgba(255,255,255,.75)}
+[data-theme="light"] .chip.is-active{background:var(--accent);color:#fff}
+[data-theme="light"] .card{box-shadow:0 6px 14px rgba(70,110,150,.10)}
+[data-theme="light"] .card-note{color:#45525f}
+[data-theme="light"] .site-nav a{background:rgba(255,255,255,.85)}
+[data-theme="light"] .site-nav a:hover{background:var(--accent);color:#fff}
+[data-theme="light"] .knowledge-article{box-shadow:0 6px 14px rgba(70,110,150,.10)}
+[data-theme="light"] .knowledge-article h2{color:#173a5e}
